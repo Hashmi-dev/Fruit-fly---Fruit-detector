@@ -1,0 +1,17 @@
+# Python environment (rebuild with pip, never commit)
+.venv/
+
+# Big downloaded data (re-create with notebook 00 / get_data_light.py)
+data/raw/
+data/flyvis/
+data/features/
+*.zip
+
+# Jupyter and Python leftovers
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local secrets and settings
+.env
+kaggle.json
